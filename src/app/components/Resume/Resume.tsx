@@ -19,7 +19,6 @@ export default function Resume(): any {
   return (
     <div className="bg-gray-100 flex items-center justify-center py-10 min-h-screen">
       <div className="bg-white w-full max-w-6xl rounded-lg p-8 flex shadow-2xl shadow-black flex-col md:flex-row">
-        {/* Left Column */}
         <div className="w-full md:w-1/3 pr-0 md:pr-4 mb-8 md:mb-0">
           <Picture />
           <About />
@@ -52,7 +51,7 @@ export default function Resume(): any {
           )}
         </div>
 
-        {/* Right Column */}
+      
         <div className="w-full md:w-2/3 pl-0 md:pl-4">
           <Profession />
           <Education />
